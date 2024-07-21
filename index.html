@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Dashboard</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Tech.Care">
+        </div>
+        <nav>
+            <ul>
+                <li>Overview</li>
+                <li class="active">Patients</li>
+                <li>Schedule</li>
+                <li>Message</li>
+                <li>Transactions</li>
+            </ul>
+        </nav>
+        <div class="profile">
+            <img src="doctor.jpg" alt="Dr. Jose Simmons">
+            <span>Dr. Jose Simmons</span>
+        </div>
+    </header>
+    <main>
+        <aside>
+            <ul class="patients-list">
+                <li>Emily Williams</li>
+                <li>Ryan Johnson</li>
+                <li>Brandon Mitchell</li>
+                <li class="active">Jessica Taylor</li>
+                <li>Samantha Johnson</li>
+                <li>Ashley Martinez</li>
+                <li>Olivia Brown</li>
+                <li>Tyler Davis</li>
+                <li>Kevin Anderson</li>
+                <li>Dylan Thompson</li>
+                <li>Nathan Evans</li>
+                <li>Mike Nolan</li>
+            </ul>
+        </aside>
+        <section class="content">
+            <div class="patient-details">
+                <div class="patient-info">
+                    <img src="jessica-taylor.jpg" alt="Jessica Taylor">
+                    <h2>Jessica Taylor</h2>
+                    <p>Date of Birth: August 23, 1996</p>
+                    <p>Gender: Female</p>
+                    <p>Contact Info: (415) 555-1234</p>
+                    <p>Emergency Contacts: (415) 555-5678</p>
+                    <p>Insurance Provider: Sunrise Health Assurance</p>
+                </div>
+                <button class="show-all">Show All Information</button>
+            </div>
+            <div class="diagnosis-history">
+                <h3>Diagnosis History</h3>
+                <div class="chart-container">
+                    <canvas id="bloodPressureChart"></canvas>
+                </div>
+                <div class="vital-signs">
+                    <div>
+                        <p>Respiratory Rate</p>
+                        <h4>20 bpm</h4>
+                        <p>Normal</p>
+                    </div>
+                    <div>
+                        <p>Temperature</p>
+                        <h4>98.6°F</h4>
+                        <p>Normal</p>
+                    </div>
+                    <div>
+                        <p>Heart Rate</p>
+                        <h4>78 bpm</h4>
+                        <p>Lower than Average</p>
+                    </div>
+                </div>
+            </div>
+            <div class="diagnostic-list">
+                <h3>Diagnostic List</h3>
+                <table>
+                    <tr>
+                        <th>Problem/Diagnosis</th>
+                        <th>Description</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>Hypertension</td>
+                        <td>Chronic high blood pressure</td>
+                        <td>Under Observation</td>
+                    </tr>
+                    <tr>
+                        <td>Type 2 Diabetes</td>
+                        <td>Insulin resistance and elevated blood sugar</td>
+                        <td>Cured</td>
+                    </tr>
+                    <tr>
+                        <td>Asthma</td>
+                        <td>Recurrent episodes of bronchial constriction</td>
+                        <td>Inactive</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="lab-results">
+                <h3>Lab Results</h3>
+                <ul>
+                    <li>Blood Tests</li>
+                    <li>CT Scans</li>
+                    <li>Radiology Reports</li>
+                    <li>X-Rays</li>
+                    <li>Urine Test</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
