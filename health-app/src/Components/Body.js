@@ -9,7 +9,7 @@ function Body() {
     return (
         <div style={{backgroundColor: "#EDEADE"}}>
             <br />
-            <Card className= "rounded bg-white">
+            <Card className= "bg-white" style={{borderRadius: "1.5%"}}>
                 <Card.Body>
                     <h2 className="text-left">Diagnosis History</h2>
                     <br />
@@ -19,7 +19,7 @@ function Body() {
                 </Card.Body>
             </Card>
             <br />
-            <Card className= "rounded bg-white">
+            <Card className= "bg-white" style={{borderRadius: "1.5%"}}>
                 <Card.Body>
                 <h2 className="text-left">Diagnostic List</h2>
                 <br />
