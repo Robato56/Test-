@@ -8,15 +8,6 @@ const data = [
     { name: 'Jan 2024', systolic: 145, diastolic: 70 },
     { name: 'Feb 2024', systolic: 140, diastolic: 72 },
     { name: 'Mar 2024', systolic: 135, diastolic: 68},
-  // Add data points for Nov 2023, Dec 2023, Jan 2024, Feb 2024, and Mar 2024
-  // ...
-
-  // Example data points:
-  // { name: 'Nov 2023', systolic: 150, diastolic: 80 },
-  // { name: 'Dec 2023', systolic: 155, diastolic: 75 },
-  // ...
-
-  // Customize other data points as needed
 ];
 
 const Graph = () => {
