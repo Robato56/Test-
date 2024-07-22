@@ -30,6 +30,8 @@ function Body() {
                                     160
                                 </h1>
                                 <i class="bi bi-caret-up-fill"></i> Higher than average
+                                <br />
+                                <br />
                                 <div className="m-0 d-flex direction-row">
                                     <div className="my-auto mr-1" style={{borderRadius: "50%", backgroundColor: "#8000ff", height: "10px", width: "10px"}}></div>
                                 <p className="m-0">
